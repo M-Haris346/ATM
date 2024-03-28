@@ -1,0 +1,23 @@
+{
+  "name": "haris-atm-simulator",
+  "version": "1.0.0",
+  "description": "A simple ATM simulator in JavaScript with basic functionalities like withdrawal, balance inquiry, fast cash, and PIN change.",
+  "main": "index.js",
+  "type": "module",
+  "bin":  "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mohammad Haris",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
